@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SpeechRecognition</title>
+
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <main class="main">
+            <div class="header">
+                <h1>Centro IMI Reconocimiento de Voz</h1>
+            </div>
+
+            <textarea id="texto" name="texto" cols="30" rows="10" placeholder="hable o introduzca texto..."></textarea>
+
+            <div id="recording"></div>
+
+            <div class="buttons">
+                <button class="btnControls" id="btnStartRecord">Comenzar a grabar voz</button>
+                <button class="btnControls" id="btnStopRecord">Detener grabación</button>
+            </div>
+
+            <div class="buttons play">
+                <button class="btnControls" id="play">Play</button>
+                <button class="btnControls" id="clear">Clear</button>
+            </div>
+        </main>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
